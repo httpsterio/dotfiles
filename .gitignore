@@ -3,7 +3,6 @@ alacritty/
 autostart/
 cachyos/
 dconf/
-fish/
 go/
 gtk-3.0/
 gtk-4.0/
@@ -31,6 +30,7 @@ dolphinrc
 filetypesrc
 gtkrc
 gtkrc-2.0
+gwenviewrc
 kactivitymanagerdrc
 kate-externaltoolspluginrc
 kactivitymanagerdrc

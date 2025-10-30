@@ -6,3 +6,14 @@ ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu
 
 ## Kitty Font Selector
 kitty +list-fonts --psnames
+
+## Dependencies
+brightnessctl
+hyprland
+kitty
+fuzzel
+rofi
+hyprpaper
+waypaper
+wl-clipboard
+dunst
