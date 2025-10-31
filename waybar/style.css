@@ -1,0 +1,100 @@
+@define-color accent_color #e5633e;
+@define-color accent2 #f79f28;
+
+* {
+  border: none;
+  border-radius: 1rem;
+  min-height: 0;
+  font-family: Jetbrains Mono;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+window#waybar {
+  border-radius: 1rem;
+  background: transparent;
+  background-image: linear-gradient(to right, rgba(0, 119, 255, 0.3), rgba(0, 0, 255,0.5));
+}
+
+#custom-os_btn {
+  margin-left: 0.5cm;
+}
+
+
+battery
+#battery,
+#network,
+#clock,
+#tray,
+#pulseaudio {
+background-color: white;
+box-shadow: 0px 0px 3px hotpink;
+margin: 4px;
+padding: 4px 1rem;
+border-radius: 8px;
+color: #000000;
+}
+ 
+#tray menu {
+  background-color: rgba(255,255,255, 0.5);
+  color: hotpink;
+  text-shadow: 0px 0px 4px rgb(135,135,135);
+  padding: 4px;
+}
+#tray menu menuitem {
+  background-image: linear-gradient(to bottom, #ffffff, #bbbbbb);
+  margin: 4px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px rgba(135, 135, 135, 1.0);
+  color: hotpink;
+}
+#tray menu menuitem:hover {
+  color: @accent_color;
+  text-shadow: 0px 0px 6px @accent_color;
+  box-shadow: 0px 0px 6px rgba(135,135,135,1);
+}
+
+#workspaces {
+margin: 4px;
+padding: 4px 8px;
+border-radius: 8px;
+color: #ffffff;
+}
+
+#workspaces button {
+transition-duration: 100ms;
+all: initial;
+min-width: 0;
+color: #ffffff;
+margin-right: 0.2cm;
+margin-left: 0.2cm;
+}
+
+
+#workspaces button.active {
+  color: #0000ff;
+}
+
+#workspaces button:hover {
+  transition-duration: 120ms;
+  color:@accent_color;
+  text-shadow: 0px 0px 8px @accent_color;
+}
+
+#workspaces button.current_output {
+color: @accent_color;;
+}
+
+#workspaces button.urgent {
+color: #e78a4e;
+text-shadow: 0px 0px 6px #e78a4e;
+}
+
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+color: #cc1a1a;
+}

@@ -1,6 +1,12 @@
 #hide default folders
 alacritty/
 autostart/
+Bitwarden/
+btop/
+fish/completions
+fish/conf.d
+fish/functions
+fish_variables
 cachyos/
 dconf/
 go/

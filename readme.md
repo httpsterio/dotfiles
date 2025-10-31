@@ -17,3 +17,8 @@ hyprpaper
 waypaper
 wl-clipboard
 dunst
+hyprpolkit
+
+## Services
+
+systemctl --user enable --now hyprpolkitagent.service
