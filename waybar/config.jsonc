@@ -39,7 +39,7 @@
 },
   "tray": {
     // "icon-size": 21,
-    "spacing": 10,
+    "spacing": 10
     // "icons": {
     //   "blueman": "bluetooth",
     //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
@@ -104,9 +104,6 @@
       "",
       ""
     ]
-  },
-  "battery#bat2": {
-    "bat": "BAT2"
   },
   "power-profiles-daemon": {
     "format": "{icon}",

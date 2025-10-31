@@ -16,7 +16,7 @@
 window#waybar {
   border-radius: 1rem;
   background: transparent;
-  background-image: linear-gradient(to right, rgba(0, 119, 255, 0.3), rgba(0, 0, 255,0.5));
+  background-color: rgba(256,256,256,0.1);
 }
 
 #custom-os_btn {
@@ -30,18 +30,16 @@ battery
 #clock,
 #tray,
 #pulseaudio {
-background-color: white;
-box-shadow: 0px 0px 3px hotpink;
+background-color: blue;
 margin: 4px;
-padding: 4px 1rem;
+padding: 0 1rem;
 border-radius: 8px;
-color: #000000;
+color: white;
 }
  
 #tray menu {
-  background-color: rgba(255,255,255, 0.5);
+  background-color: rgba(255, 0, 140, 0.5);
   color: hotpink;
-  text-shadow: 0px 0px 4px rgb(135,135,135);
   padding: 4px;
 }
 #tray menu menuitem {
@@ -62,6 +60,7 @@ margin: 4px;
 padding: 4px 8px;
 border-radius: 8px;
 color: #ffffff;
+background: #1e29f9;
 }
 
 #workspaces button {
@@ -75,17 +74,17 @@ margin-left: 0.2cm;
 
 
 #workspaces button.active {
-  color: #0000ff;
+  color: #f79f28;
 }
 
 #workspaces button:hover {
   transition-duration: 120ms;
-  color:@accent_color;
+  color: yellow;
   text-shadow: 0px 0px 8px @accent_color;
 }
 
 #workspaces button.current_output {
-color: @accent_color;;
+color: hotpink;
 }
 
 #workspaces button.urgent {
